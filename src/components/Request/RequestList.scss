@@ -1,0 +1,75 @@
+.req-title {
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* Các trình duyệt khác */
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 25px 0 10px 0;
+}
+.carousel-rq {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    grid-auto-flow: column;
+    grid-row: inherit;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 160px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color:#CCFFF5 ;
+}
+.inner-carousel{
+
+    width: 95%;
+    display: flex;
+    margin: 5px;
+    overflow: hidden;
+}
+.item{
+    user-select: none;
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    height: 125px;
+    min-width: 27%;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: all 100ms linear;
+}
+ .name{
+    position: absolute;
+    left: 30px;
+    font-size: 25px;
+    top: 10px;
+}
+.date {
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    top: 52px;
+}
+.cost{
+    position: absolute;
+    font-size: 20px;
+    left: 30px;
+    top: 90px;
+}
+.icon-eye{
+    position: absolute;
+    font-size: 30px;
+    top: 90px;
+    right: 17px;
+    cursor: pointer;
+}
+.icon-pn {
+    -ms-user-select: none; /* IE/Edge */
+    user-select: none; /* Các trình duyệt khác */
+    width: 30px;
+    cursor: pointer;
+    margin: 0 15px 0 15px;
+    scale: 90%;
+}
